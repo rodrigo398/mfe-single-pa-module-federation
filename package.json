@@ -1,0 +1,16 @@
+{
+    "name": "mfe-single-pa-module-federation",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start": "concurrently \"wsrun --parallel serve\""
+    },
+    "devDependencies": {
+        "wsrun": "^5.2.0"
+    },
+    "dependencies": {
+        "concurrently": "^5.1.0"
+    }
+}
