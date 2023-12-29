@@ -1,5 +1,6 @@
 {
   "name": "@morty/root-config",
+  "version": "0.0.0",
   "scripts": {
     "serve": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
